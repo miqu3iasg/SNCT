@@ -34,3 +34,7 @@ header {
 .navbar-links a {
   color: var(--primary-text-color);
 }
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
