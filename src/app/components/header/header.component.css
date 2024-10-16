@@ -1,5 +1,5 @@
 header {
-  background-color: var(--tertiary-color);
+  background-color: var(--primary-color);
   padding: 10px 0;
 }
 
@@ -32,7 +32,7 @@ header {
 }
 
 .navbar-links a {
-  color: var(--primary-text-color);
+  color: var(--tertiary-color);
 }
 
 .navbar-links a:hover {
