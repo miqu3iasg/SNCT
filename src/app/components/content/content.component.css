@@ -41,6 +41,41 @@
   height: auto;
 }
 
+.youtube-button {
+  background-color: var(--primary-color);
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  color: var(--quaternary-color);
+  border: none;
+  margin-left: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.text-button {
+  background-color: var(--primary-color);
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  color: var(--quaternary-color);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.youtube-button:hover {
+  background-color: var(--quaternary-color);
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.text-button:hover {
+  background-color: var(--quaternary-color);
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
 
 
 
