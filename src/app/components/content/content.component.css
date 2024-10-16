@@ -1,0 +1,46 @@
+.content-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.introduction-section {
+  /*Código que coloca um elemento do lado do outro, o display flex faz isso*/
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.red-line {
+  max-width: 600px;
+}
+
+.introduction-title {
+  margin: 0 30px 20px;
+  font-size: 37px;
+  text-align: start;
+
+  /*Código que implementa o gradiente de cores*/
+  background: linear-gradient(332deg, rgba(18,18,19,1) 0%, rgba(44,150,49,1) 87%, rgba(26,179,34,1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.introduction-subtitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: start;
+  margin: 0 30px 30px;
+}
+
+.main-image {
+  width: 500px;
+  height: auto;
+}
+
+
+
+
