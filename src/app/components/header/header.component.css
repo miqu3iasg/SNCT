@@ -1,5 +1,5 @@
 header {
-  background-color: var(--primary-color);
+  background-color: var(--background-color);
   padding: 10px 0;
 }
 
@@ -20,11 +20,23 @@ header {
   height: auto;
 }
 
-.navbar-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-  font-size: 15px;
+header .navbar .button {
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: var(--primary-color);
+  color: var(--quaternary-color);
+  font-size: 12px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+header .navbar .button:hover {
+  background-color: var(--quaternary-color);
+  transform: translateY(-3px);
+  color: var(--primary-color);
+  font-weight: 600;
 }
 
 .navbar-links li {
