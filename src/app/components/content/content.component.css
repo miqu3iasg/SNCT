@@ -219,7 +219,38 @@
       width: 500px;
       height: auto;
     }
+
+    .image-text {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+
+    .heading-paragraph {
+      display: flex;
+      align-items: center;
+      text-align: justify;
+      flex-direction: column;
+
+    }
+
+    .box-image {
+      width: 500px;
+      height: 300px;
+      display: flex;
+      padding: 24px;
+      justify-content: flex-end;
+      background-color: var(--background-color);
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      border-radius: 18px;
+      transition: transform 0.3s ease;
+    }
+
+    .box-image:hover {
+      transform: translateY(-3px)
+    }
   }
 }
+
 
 
