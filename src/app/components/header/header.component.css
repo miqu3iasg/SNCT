@@ -1,6 +1,6 @@
 header {
-  background-color: var(--background-color);
   padding: 10px 0;
+  margin-bottom: 50px;
 }
 
 .navbar {
@@ -29,14 +29,14 @@ header .navbar .button {
   background-color: var(--primary-color);
   color: var(--quaternary-color);
   font-size: 12px;
+  font-weight: 600;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 header .navbar .button:hover {
-  background-color: var(--quaternary-color);
+  background-color: #1a9c21;
   transform: translateY(-3px);
-  color: var(--primary-color);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .navbar-links li {
@@ -46,8 +46,4 @@ header .navbar .button:hover {
 .navbar-links a {
   cursor: pointer;
   color: var(--quaternary-color);
-}
-
-.navbar-links a:hover {
-  /*Colocar efeito nos links do header*/
 }

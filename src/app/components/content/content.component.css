@@ -1,7 +1,5 @@
 .content-container {
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
 }
 
 .introduction-section {
@@ -67,18 +65,19 @@
 }
 
 .text-button {
-  background-color: var(--quaternary-color);
+  background-color: #D0B548;
   font-size: 15px;
   padding: 10px 20px;
   border-radius: 12px;
-  color: var(--primary-color);
-  border: none;
+  color: var(--quaternary-color);
+  font-weight: 700;
+  border: solid 1px #C0A94E;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .youtube-button:hover {
-  background-color: #FF0000;
+  background-color: #1a9c21;
   color: white;
   font-weight: bold;
 }
@@ -90,17 +89,17 @@
 
 .contribuitors-title {
   text-align: center;
-  margin: 60px 0 15px;
+  margin: 150px 0 25px;
   color: var(--primary-color);
   font-size: 24px;
 }
 
 .contribuitors-subtitle {
   color: var(--light-grey);
-  max-width: 80%;
+  max-width: 50%;
   text-align: center;
-  margin: 0 auto 30px;
-  
+  margin: 0 auto 40px;
+  font-size: 15px;
 }
 
 .contribuitors-section {
@@ -112,7 +111,7 @@
 }
 
 .contribuitor {
-  width: 300px;
+  width: 270px;
   height: 350px;
   background-color: var(--quaternary-color);
   border-radius: 15px;
@@ -151,7 +150,7 @@
 }
 
 .main-contribuitor {
-  width: 300px;
+  width: 270px;
   height: 350px;
   border-radius: 15px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -196,16 +195,16 @@
   align-items: center;
   gap: 85px;
   margin: 0 30px 0;
-  padding: 0 75px;
-
+  padding: 0 140px;
   .content-section {
     text-align: justify;
 
     .title {
       width: 100%;
-      color: var(--secundary-color);
+      color: var(--primary-color);
       margin-bottom: 15px;
       font-size: 18px;
+      text-align: center;
     }
 
     .text {
@@ -240,7 +239,7 @@
       display: flex;
       padding: 24px;
       justify-content: flex-end;
-      background-color: var(--background-color);
+      background-color: var(--quaternary-color);
       box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
       border-radius: 18px;
       transition: transform 0.3s ease;
