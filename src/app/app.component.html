@@ -1,9 +1,16 @@
-<router-outlet />
-<div class="background-image-container">
+<!-- Div que contém o background, aplicada somente nas rotas que precisam -->
+<div *ngIf="router.url === '/'" class="background-image-container">
   <app-header></app-header>
-  <app-content></app-content>
+  <router-outlet></router-outlet>
   <app-footer></app-footer>
 </div>
+
+<!-- Renderize o conteúdo das outras rotas sem o background -->
+<div *ngIf="router.url !== '/'">
+  <router-outlet></router-outlet>
+</div>
+
+
 
 
 
