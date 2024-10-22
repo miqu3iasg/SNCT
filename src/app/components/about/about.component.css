@@ -10,6 +10,12 @@ header .logo {
   height: auto;
 }
 
+header .buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 header .buttons a {
   display: flex;
   align-items: center;
